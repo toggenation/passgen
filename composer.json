@@ -1,0 +1,27 @@
+{
+    "name": "toggenation/passgen",
+    "description": "Generate Simple Passwords",
+    "version": "0.1",
+    "scripts": {
+        "gen": "Toggenation\\Passgen\\Passgen::generate"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Toggenation\\Passgen\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "James McDonald",
+            "email": "james@toggen.com.au"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "paragonie/random-lib": "^2.0"
+    },
+    "require-dev": {
+        "composer/composer": "^2.8"
+    }
+}
