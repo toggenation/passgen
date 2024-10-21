@@ -17,7 +17,6 @@ class Passgen
 
     public static function generate(Event $event)
     {
-
         $length = self::getLength($event->getArguments());
 
         $factory = new \RandomLib\Factory;
